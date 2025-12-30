@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-12-30T11:36:45.415898",
+  "currency": "AUD",
+  "location": "Perth, WA",
+  "retailers": {
+    "apple_store": {
+      "name": "Apple Store Australia",
+      "url": "https://www.apple.com/au/shop/buy-mac/macbook-air",
+      "models": {
+        "m3_13": {
+          "name": "MacBook Air M3 13\" (base)",
+          "price_aud": 1549,
+          "in_stock": null,
+          "status": "requires_verification"
+        },
+        "m2_13": {
+          "name": "MacBook Air M2 13\" (base)",
+          "price_aud": 1199,
+          "in_stock": null,
+          "status": "requires_verification"
+        }
+      },
+      "promotions": [],
+      "delivery_to_perth": {
+        "available": true,
+        "estimated_days": null,
+        "shipping_cost": null
+      },
+      "last_updated": "2025-12-30T11:36:45.415919",
+      "notes": "Prices are approximate - requires live verification via retailer website"
+    },
+    "jb_hi_fi": {
+      "name": "JB Hi-Fi",
+      "url": "https://www.jbhifi.com.au/products/apple-macbook-air-13-m3",
+      "models": {
+        "m3_13": {
+          "name": "MacBook Air M3 13\" (base)",
+          "price_aud": 1599,
+          "in_stock": null,
+          "status": "requires_verification"
+        },
+        "m2_13": {
+          "name": "MacBook Air M2 13\" (base)",
+          "price_aud": 1299,
+          "in_stock": null,
+          "status": "requires_verification"
+        }
+      },
+      "promotions": [],
+      "delivery_to_perth": {
+        "available": true,
+        "estimated_days": null,
+        "shipping_cost": null
+      },
+      "last_updated": "2025-12-30T11:36:45.415924",
+      "notes": "Prices are approximate - requires live verification via retailer website"
+    },
+    "harvey_norman": {
+      "name": "Harvey Norman",
+      "url": "https://www.harveynorman.com.au/computers/apple-macbook",
+      "models": {
+        "m3_13": {
+          "name": "MacBook Air M3 13\" (base)",
+          "price_aud": 1599,
+          "in_stock": null,
+          "status": "requires_verification"
+        },
+        "m2_13": {
+          "name": "MacBook Air M2 13\" (base)",
+          "price_aud": 1299,
+          "in_stock": null,
+          "status": "requires_verification"
+        }
+      },
+      "promotions": [],
+      "delivery_to_perth": {
+        "available": true,
+        "estimated_days": null,
+        "shipping_cost": null
+      },
+      "last_updated": "2025-12-30T11:36:45.415928",
+      "notes": "Prices are approximate - requires live verification via retailer website"
+    },
+    "officeworks": {
+      "name": "Officeworks",
+      "url": "https://www.officeworks.com.au/search?q=MacBook+Air",
+      "models": {
+        "m3_13": {
+          "name": "MacBook Air M3 13\" (base)",
+          "price_aud": 1599,
+          "in_stock": null,
+          "status": "requires_verification"
+        },
+        "m2_13": {
+          "name": "MacBook Air M2 13\" (base)",
+          "price_aud": 1299,
+          "in_stock": null,
+          "status": "requires_verification"
+        }
+      },
+      "promotions": [],
+      "delivery_to_perth": {
+        "available": true,
+        "estimated_days": null,
+        "shipping_cost": null
+      },
+      "last_updated": "2025-12-30T11:36:45.415931",
+      "notes": "Prices are approximate - requires live verification via retailer website"
+    },
+    "good_guys": {
+      "name": "The Good Guys",
+      "url": "https://www.thegoodguys.com.au/apple/laptops/macbook-air",
+      "models": {
+        "m3_13": {
+          "name": "MacBook Air M3 13\" (base)",
+          "price_aud": 1599,
+          "in_stock": null,
+          "status": "requires_verification"
+        },
+        "m2_13": {
+          "name": "MacBook Air M2 13\" (base)",
+          "price_aud": 1299,
+          "in_stock": null,
+          "status": "requires_verification"
+        }
+      },
+      "promotions": [],
+      "delivery_to_perth": {
+        "available": true,
+        "estimated_days": null,
+        "shipping_cost": null
+      },
+      "last_updated": "2025-12-30T11:36:45.415933",
+      "notes": "Prices are approximate - requires live verification via retailer website"
+    }
+  }
+}

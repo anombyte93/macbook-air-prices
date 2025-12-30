@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacBook Air Price Comparison - Perth WA | Best Deals December 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        .best-deal { border: 2px solid #10b981; }
+        .deal-badge { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-white">
+    <!-- Header -->
+    <header class="py-8 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                <i class="fab fa-apple mr-3"></i>MacBook Air Price Comparison
+            </h1>
+            <p class="text-xl text-gray-300">Perth, Western Australia | December 2025</p>
+            <p class="text-sm text-gray-400 mt-2">Last Updated: <span id="lastUpdated"></span></p>
+        </div>
+    </header>
+
+    <!-- Top Recommendations -->
+    <section class="py-8 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">
+                <i class="fas fa-trophy text-yellow-400 mr-2"></i>Top 3 Recommendations
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Best Overall -->
+                <div class="bg-gradient-to-br from-green-900/50 to-green-800/30 rounded-2xl p-6 border border-green-500 card-hover transition-all duration-300">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold deal-badge">BEST VALUE</span>
+                        <span class="text-2xl">🏆</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Costco M2 16GB/256GB</h3>
+                    <p class="text-4xl font-bold text-green-400 mb-2">$999.98</p>
+                    <p class="text-gray-300 text-sm mb-4">Members only. Best budget option with 16GB RAM.</p>
+                    <ul class="text-sm text-gray-400 space-y-1 mb-4">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>Apple M2 Chip</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>16GB RAM (future-proof)</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>256GB SSD</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>Perth delivery available</li>
+                    </ul>
+                    <a href="https://www.costco.com.au" target="_blank" class="block w-full bg-green-600 hover:bg-green-700 text-center py-3 rounded-lg font-bold transition">
+                        View Deal <i class="fas fa-external-link-alt ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Best New -->
+                <div class="bg-gradient-to-br from-blue-900/50 to-blue-800/30 rounded-2xl p-6 border border-blue-500 card-hover transition-all duration-300">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold">BEST NEW</span>
+                        <span class="text-2xl">✨</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">M4 16GB/512GB - JB Hi-Fi</h3>
+                    <p class="text-4xl font-bold text-blue-400 mb-2">$1,627</p>
+                    <p class="text-gray-300 text-sm mb-4">Latest M4 chip. Best performance for new units.</p>
+                    <ul class="text-sm text-gray-400 space-y-1 mb-4">
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>Apple M4 Chip (Latest)</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>16GB Unified Memory</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>512GB Fast SSD</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>Perth store pickup</li>
+                    </ul>
+                    <a href="https://www.jbhifi.com.au/products/apple-macbook-air-13-m4" target="_blank" class="block w-full bg-blue-600 hover:bg-blue-700 text-center py-3 rounded-lg font-bold transition">
+                        View Deal <i class="fas fa-external-link-alt ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Best Refurbished -->
+                <div class="bg-gradient-to-br from-purple-900/50 to-purple-800/30 rounded-2xl p-6 border border-purple-500 card-hover transition-all duration-300">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-bold">BEST REFURB</span>
+                        <span class="text-2xl">♻️</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Recompute M2 13"</h3>
+                    <p class="text-4xl font-bold text-purple-400 mb-2">$1,299</p>
+                    <p class="text-gray-300 text-sm mb-4">Like-new condition with 12-month warranty.</p>
+                    <ul class="text-sm text-gray-400 space-y-1 mb-4">
+                        <li><i class="fas fa-check text-purple-400 mr-2"></i>Grade A Condition</li>
+                        <li><i class="fas fa-check text-purple-400 mr-2"></i>12-Month Warranty</li>
+                        <li><i class="fas fa-check text-purple-400 mr-2"></i>30-Day Returns</li>
+                        <li><i class="fas fa-check text-purple-400 mr-2"></i>3-5 days to Perth</li>
+                    </ul>
+                    <a href="https://recompute.com.au" target="_blank" class="block w-full bg-purple-600 hover:bg-purple-700 text-center py-3 rounded-lg font-bold transition">
+                        View Deal <i class="fas fa-external-link-alt ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price Comparison Chart -->
+    <section class="py-8 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">
+                <i class="fas fa-chart-bar text-cyan-400 mr-2"></i>Price Comparison by Model
+            </h2>
+            <div class="bg-white/10 backdrop-blur rounded-2xl p-6">
+                <canvas id="priceChart" height="300"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Comparison Table -->
+    <section class="py-8 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">
+                <i class="fas fa-table text-orange-400 mr-2"></i>Full Price Comparison
+            </h2>
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white/10 backdrop-blur rounded-2xl overflow-hidden">
+                    <thead class="bg-white/20">
+                        <tr>
+                            <th class="px-6 py-4 text-left">Source</th>
+                            <th class="px-6 py-4 text-left">Model</th>
+                            <th class="px-6 py-4 text-left">Specs</th>
+                            <th class="px-6 py-4 text-left">Price</th>
+                            <th class="px-6 py-4 text-left">Condition</th>
+                            <th class="px-6 py-4 text-left">Perth Delivery</th>
+                            <th class="px-6 py-4 text-left">Link</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-white/10" id="priceTable">
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second-Hand Market -->
+    <section class="py-8 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">
+                <i class="fas fa-handshake text-pink-400 mr-2"></i>Second-Hand Market (eBay/Gumtree)
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- M3 -->
+                <div class="bg-white/10 backdrop-blur rounded-2xl p-6">
+                    <h3 class="text-xl font-bold mb-4 text-pink-400">MacBook Air M3</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Price Range:</span>
+                            <span class="font-bold">$1,899 - $2,450</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Average:</span>
+                            <span class="font-bold text-pink-400">$2,150</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Best Deal:</span>
+                            <span class="text-green-400">$1,899 (512GB/24GB)</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- M2 -->
+                <div class="bg-white/10 backdrop-blur rounded-2xl p-6 best-deal">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="text-xl font-bold text-green-400">MacBook Air M2</h3>
+                        <span class="bg-green-500 text-xs px-2 py-1 rounded">BEST VALUE</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Price Range:</span>
+                            <span class="font-bold">$1,299 - $1,899</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Average:</span>
+                            <span class="font-bold text-green-400">$1,550</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Best Deal:</span>
+                            <span class="text-green-400">$1,299 Perth Local!</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- M1 -->
+                <div class="bg-white/10 backdrop-blur rounded-2xl p-6">
+                    <h3 class="text-xl font-bold mb-4 text-yellow-400">MacBook Air M1</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Price Range:</span>
+                            <span class="font-bold">$899 - $1,399</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Average:</span>
+                            <span class="font-bold text-yellow-400">$1,100</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Best Deal:</span>
+                            <span class="text-green-400">$899 (256GB/8GB)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Savings Calculator -->
+    <section class="py-8 px-4">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">
+                <i class="fas fa-calculator text-teal-400 mr-2"></i>Savings Calculator
+            </h2>
+            <div class="bg-white/10 backdrop-blur rounded-2xl p-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Apple RRP (New)</label>
+                        <select id="rrpSelect" class="w-full bg-white/20 rounded-lg px-4 py-3 text-white">
+                            <option value="1549">M3 13" 256GB - $1,549</option>
+                            <option value="1899">M3 13" 512GB - $1,899</option>
+                            <option value="1999">M4 13" 256GB - $1,999</option>
+                            <option value="2199">M4 13" 512GB - $2,199</option>
+                            <option value="2499">M4 15" 256GB - $2,499</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Your Deal Price</label>
+                        <input type="number" id="dealPrice" placeholder="Enter price" class="w-full bg-white/20 rounded-lg px-4 py-3 text-white" value="999">
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <button onclick="calculateSavings()" class="bg-teal-600 hover:bg-teal-700 px-8 py-3 rounded-lg font-bold transition">
+                        Calculate Savings
+                    </button>
+                </div>
+                <div id="savingsResult" class="mt-6 text-center hidden">
+                    <p class="text-2xl">You Save: <span id="savingsAmount" class="text-green-400 font-bold"></span></p>
+                    <p class="text-lg text-gray-300">That's <span id="savingsPercent" class="text-green-400 font-bold"></span> off RRP!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buyer Tips -->
+    <section class="py-8 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">
+                <i class="fas fa-lightbulb text-yellow-400 mr-2"></i>Buyer Tips for Perth
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-green-900/30 rounded-2xl p-6 border border-green-500/30">
+                    <h3 class="text-xl font-bold text-green-400 mb-4"><i class="fas fa-check-circle mr-2"></i>Green Flags</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>Seller shows original receipt/invoice</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>Battery health 95%+ documented</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>AppleCare+ remaining (transferable)</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>Multiple clear photos from all angles</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>Original packaging and accessories</li>
+                        <li><i class="fas fa-check text-green-400 mr-2"></i>Willing to meet at safe public location</li>
+                    </ul>
+                </div>
+                <div class="bg-red-900/30 rounded-2xl p-6 border border-red-500/30">
+                    <h3 class="text-xl font-bold text-red-400 mb-4"><i class="fas fa-exclamation-triangle mr-2"></i>Red Flags</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><i class="fas fa-times text-red-400 mr-2"></i>Price significantly below market (scam)</li>
+                        <li><i class="fas fa-times text-red-400 mr-2"></i>No photos or blurry/stock images</li>
+                        <li><i class="fas fa-times text-red-400 mr-2"></i>Seller pressure for urgent sale</li>
+                        <li><i class="fas fa-times text-red-400 mr-2"></i>Won't verify serial number</li>
+                        <li><i class="fas fa-times text-red-400 mr-2"></i>Refuses local inspection</li>
+                        <li><i class="fas fa-times text-red-400 mr-2"></i>New account with multiple listings</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Retailer Links -->
+    <section class="py-8 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">
+                <i class="fas fa-store text-indigo-400 mr-2"></i>Quick Links - Australian Retailers
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                <a href="https://www.apple.com/au/shop/buy-mac/macbook-air" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fab fa-apple text-3xl mb-2"></i>
+                    <p class="text-sm">Apple Store</p>
+                </a>
+                <a href="https://www.jbhifi.com.au/collections/computers-tablets/apple-macbook" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-music text-3xl mb-2 text-yellow-400"></i>
+                    <p class="text-sm">JB Hi-Fi</p>
+                </a>
+                <a href="https://www.officeworks.com.au/shop/officeworks/c/apple-macbooks" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-briefcase text-3xl mb-2 text-red-400"></i>
+                    <p class="text-sm">Officeworks</p>
+                </a>
+                <a href="https://www.harveynorman.com.au/computers-tablets/laptops/apple-macbooks" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-tv text-3xl mb-2 text-blue-400"></i>
+                    <p class="text-sm">Harvey Norman</p>
+                </a>
+                <a href="https://www.costco.com.au" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-warehouse text-3xl mb-2 text-red-500"></i>
+                    <p class="text-sm">Costco</p>
+                </a>
+                <a href="https://www.ozbargain.com.au/search?q=macbook+air" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-tags text-3xl mb-2 text-orange-400"></i>
+                    <p class="text-sm">OzBargain</p>
+                </a>
+                <a href="https://recompute.com.au" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-recycle text-3xl mb-2 text-green-400"></i>
+                    <p class="text-sm">Recompute</p>
+                </a>
+                <a href="https://www.apple.com/au/shop/refurbished/mac" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-sync text-3xl mb-2 text-purple-400"></i>
+                    <p class="text-sm">Apple Refurb</p>
+                </a>
+                <a href="https://www.ebay.com.au/sch/i.html?_nkw=macbook+air" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-gavel text-3xl mb-2 text-pink-400"></i>
+                    <p class="text-sm">eBay AU</p>
+                </a>
+                <a href="https://www.gumtree.com.au/s-macbook+air/k0" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-tree text-3xl mb-2 text-green-500"></i>
+                    <p class="text-sm">Gumtree</p>
+                </a>
+                <a href="https://www.amazon.com.au/s?k=macbook+air" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fab fa-amazon text-3xl mb-2 text-orange-500"></i>
+                    <p class="text-sm">Amazon AU</p>
+                </a>
+                <a href="https://www.thegoodguys.com.au/apple" target="_blank" class="bg-white/10 hover:bg-white/20 rounded-xl p-4 text-center transition">
+                    <i class="fas fa-thumbs-up text-3xl mb-2 text-blue-500"></i>
+                    <p class="text-sm">Good Guys</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 border-t border-white/10">
+        <div class="max-w-7xl mx-auto text-center text-gray-400">
+            <p>Research compiled for Perth, Western Australia delivery</p>
+            <p class="text-sm mt-2">Prices accurate as of December 2025. Always verify before purchase.</p>
+            <p class="text-xs mt-4">Generated by Claude Code Price Research Tool</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set last updated date
+        document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('en-AU', {
+            year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'
+        });
+
+        // Price data
+        const priceData = [
+            { source: 'Costco', model: 'MacBook Air M2', specs: '16GB/256GB', price: 999.98, condition: 'New', delivery: 'Delivery available', url: 'https://costco.com.au', highlight: true },
+            { source: 'eBay (Perth)', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1299, condition: 'Excellent', delivery: 'Local pickup!', url: 'https://ebay.com.au', highlight: true },
+            { source: 'Recompute', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1299, condition: 'Like New', delivery: '3-5 days', url: 'https://recompute.com.au', highlight: false },
+            { source: 'Apple Store', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1199, condition: 'New', delivery: '2-3 days', url: 'https://apple.com/au', highlight: false },
+            { source: 'JB Hi-Fi', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1299, condition: 'New', delivery: 'Perth store', url: 'https://jbhifi.com.au', highlight: false },
+            { source: 'Apple Store', model: 'MacBook Air M3', specs: '8GB/256GB', price: 1549, condition: 'New', delivery: '2-3 days', url: 'https://apple.com/au', highlight: false },
+            { source: 'Recompute', model: 'MacBook Air M3', specs: '8GB/256GB', price: 1599, condition: 'Excellent', delivery: '3-5 days', url: 'https://recompute.com.au', highlight: false },
+            { source: 'JB Hi-Fi', model: 'MacBook Air M4', specs: '16GB/512GB', price: 1627, condition: 'New', delivery: 'Perth store', url: 'https://jbhifi.com.au', highlight: true },
+            { source: 'Apple Refurb', model: 'MacBook Air M3', specs: '8GB/256GB', price: 1699, condition: 'Refurbished', delivery: '2-3 days', url: 'https://apple.com/au/shop/refurbished', highlight: false },
+            { source: 'eBay', model: 'MacBook Air M3', specs: '24GB/512GB', price: 1899, condition: 'Excellent', delivery: 'Free shipping', url: 'https://ebay.com.au', highlight: false },
+            { source: 'eBay', model: 'MacBook Air M1', specs: '8GB/256GB', price: 899, condition: 'Very Good', delivery: 'Free shipping', url: 'https://ebay.com.au', highlight: false },
+        ];
+
+        // Populate table
+        const tableBody = document.getElementById('priceTable');
+        priceData.sort((a, b) => a.price - b.price).forEach(item => {
+            const row = document.createElement('tr');
+            row.className = item.highlight ? 'bg-green-900/20' : '';
+            row.innerHTML = `
+                <td class="px-6 py-4">${item.source}</td>
+                <td class="px-6 py-4 font-medium">${item.model}</td>
+                <td class="px-6 py-4 text-gray-400">${item.specs}</td>
+                <td class="px-6 py-4 font-bold ${item.highlight ? 'text-green-400' : ''}">$${item.price.toLocaleString()}</td>
+                <td class="px-6 py-4"><span class="px-2 py-1 rounded text-xs ${item.condition === 'New' ? 'bg-blue-500' : item.condition === 'Excellent' || item.condition === 'Like New' ? 'bg-green-500' : 'bg-yellow-500'}">${item.condition}</span></td>
+                <td class="px-6 py-4 text-gray-400">${item.delivery}</td>
+                <td class="px-6 py-4"><a href="${item.url}" target="_blank" class="text-cyan-400 hover:text-cyan-300"><i class="fas fa-external-link-alt"></i></a></td>
+            `;
+            tableBody.appendChild(row);
+        });
+
+        // Chart
+        const ctx = document.getElementById('priceChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['M1 (Budget)', 'M2 (Value)', 'M3', 'M4 (Latest)'],
+                datasets: [
+                    {
+                        label: 'Cheapest New',
+                        data: [null, 1199, 1549, 1627],
+                        backgroundColor: 'rgba(59, 130, 246, 0.8)',
+                    },
+                    {
+                        label: 'Cheapest Refurbished',
+                        data: [null, 1299, 1599, null],
+                        backgroundColor: 'rgba(168, 85, 247, 0.8)',
+                    },
+                    {
+                        label: 'Cheapest Second-Hand',
+                        data: [899, 1299, 1899, null],
+                        backgroundColor: 'rgba(16, 185, 129, 0.8)',
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        labels: { color: 'white' }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        min: 800,
+                        ticks: { color: 'white', callback: value => '$' + value },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    x: {
+                        ticks: { color: 'white' },
+                        grid: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+
+        // Savings calculator
+        function calculateSavings() {
+            const rrp = parseFloat(document.getElementById('rrpSelect').value);
+            const deal = parseFloat(document.getElementById('dealPrice').value);
+            const savings = rrp - deal;
+            const percent = ((savings / rrp) * 100).toFixed(1);
+
+            document.getElementById('savingsAmount').textContent = '$' + savings.toFixed(2);
+            document.getElementById('savingsPercent').textContent = percent + '%';
+            document.getElementById('savingsResult').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>

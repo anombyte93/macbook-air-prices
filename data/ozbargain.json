@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "search_date": "2025-12-30",
+    "source": "ozbargain.com.au",
+    "extraction_method": "browser-automation-required",
+    "note": "OzBargain uses dynamic JavaScript rendering. Full extraction requires browser automation MCP."
+  },
+  "search_queries": {
+    "MacBook Air": {
+      "url": "https://www.ozbargain.com.au/search?q=MacBook+Air",
+      "status": "requires_browser_automation",
+      "estimated_deals": "5-15 active",
+      "description": "General MacBook Air search - returns all models"
+    },
+    "MacBook Air M3": {
+      "url": "https://www.ozbargain.com.au/search?q=MacBook+Air+M3",
+      "status": "requires_browser_automation",
+      "estimated_deals": "3-8 active",
+      "description": "Latest M3 processor model searches"
+    },
+    "MacBook Air M2": {
+      "url": "https://www.ozbargain.com.au/search?q=MacBook+Air+M2",
+      "status": "requires_browser_automation",
+      "estimated_deals": "2-5 active",
+      "description": "Previous generation M2 model searches"
+    },
+    "MacBook Air refurbished": {
+      "url": "https://www.ozbargain.com.au/search?q=MacBook+Air+refurbished",
+      "status": "requires_browser_automation",
+      "estimated_deals": "1-3 active",
+      "description": "Refurbished/B-grade deals"
+    }
+  },
+  "data_structure_ready": {
+    "deal_template": {
+      "deal_id": "unique_ozbargain_post_id",
+      "title": "string",
+      "description": "string",
+      "store_retailer": "string",
+      "original_price_aud": "number_or_null",
+      "deal_price_aud": "number",
+      "discount_percent": "number",
+      "cashback_offers": "string_or_null",
+      "additional_discounts": "string_or_null",
+      "vote_count": "integer",
+      "vote_ratio": "positive:negative",
+      "post_date": "ISO_8601_date",
+      "status": "active|expired|pending",
+      "model_specs": {
+        "processor": "M3|M2|M1|etc",
+        "memory_gb": "integer",
+        "storage_gb": "integer",
+        "screen_size": "13|15",
+        "condition": "new|refurbished|open_box"
+      },
+      "url": "direct_deal_link"
+    }
+  },
+  "patterns_to_extract": {
+    "best_retailers": "Track which stores appear most frequently with good deals",
+    "discount_percentages": "Common discount ranges observed",
+    "seasonal_trends": "When MacBook Air deals typically appear",
+    "model_frequency": "Which models most commonly discounted",
+    "typical_deal_times": "Day/time when deals posted"
+  },
+  "next_steps": [
+    "Use browser-automation MCP to render JavaScript and extract deal divs",
+    "Parse each deal card for title, price, store, votes",
+    "Cross-reference with historical OzBargain archives for trends",
+    "Match against Apple RRP to calculate discount percentages",
+    "Identify pattern: seasonal sales, retail cycles, processor launches"
+  ]
+}

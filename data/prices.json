@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "generated": "2025-12-30",
+    "location": "Perth, Western Australia",
+    "currency": "AUD"
+  },
+  "recommendations": {
+    "best_value": {
+      "source": "Costco",
+      "model": "MacBook Air M2 16GB/256GB",
+      "price": 999.98,
+      "why": "Best price with 16GB RAM. Members only. Previous gen but still excellent performance."
+    },
+    "best_new": {
+      "source": "JB Hi-Fi",
+      "model": "MacBook Air M4 16GB/512GB",
+      "price": 1627,
+      "why": "Latest M4 chip, fast SSD, Perth store pickup available."
+    },
+    "best_refurbished": {
+      "source": "Recompute",
+      "model": "MacBook Air M2 13\" 256GB",
+      "price": 1299,
+      "why": "Like-new condition, 12-month warranty, 30-day returns, 3-5 days to Perth."
+    }
+  },
+  "prices": [
+    {
+      "source": "Costco",
+      "model": "MacBook Air M2",
+      "specs": "16GB/256GB",
+      "price": 999.98,
+      "condition": "New",
+      "delivery": "Delivery available",
+      "url": "https://costco.com.au",
+      "notes": "Members only - clearance pricing"
+    },
+    {
+      "source": "eBay Perth Local",
+      "model": "MacBook Air M2",
+      "specs": "8GB/256GB",
+      "price": 1299,
+      "condition": "Excellent",
+      "delivery": "Local pickup Perth",
+      "url": "https://ebay.com.au",
+      "notes": "Local seller, no shipping needed"
+    },
+    {
+      "source": "Apple Store",
+      "model": "MacBook Air M2",
+      "specs": "8GB/256GB",
+      "price": 1199,
+      "condition": "New",
+      "delivery": "2-3 days to Perth",
+      "url": "https://apple.com/au/shop/buy-mac/macbook-air"
+    },
+    {
+      "source": "Recompute",
+      "model": "MacBook Air M2",
+      "specs": "8GB/256GB",
+      "price": 1299,
+      "condition": "Like New",
+      "delivery": "3-5 days to Perth",
+      "url": "https://recompute.com.au",
+      "notes": "12-month warranty, 30-day returns"
+    },
+    {
+      "source": "JB Hi-Fi",
+      "model": "MacBook Air M2",
+      "specs": "8GB/256GB",
+      "price": 1299,
+      "condition": "New",
+      "delivery": "Perth stores",
+      "url": "https://jbhifi.com.au"
+    },
+    {
+      "source": "Apple Store",
+      "model": "MacBook Air M3",
+      "specs": "8GB/256GB",
+      "price": 1549,
+      "condition": "New",
+      "delivery": "2-3 days to Perth",
+      "url": "https://apple.com/au/shop/buy-mac/macbook-air"
+    },
+    {
+      "source": "JB Hi-Fi",
+      "model": "MacBook Air M4",
+      "specs": "16GB/512GB",
+      "price": 1627,
+      "condition": "New",
+      "delivery": "Perth stores",
+      "url": "https://jbhifi.com.au",
+      "notes": "Best price for M4 model"
+    },
+    {
+      "source": "Officeworks",
+      "model": "MacBook Air M4",
+      "specs": "16GB/256GB",
+      "price": 1397,
+      "condition": "New",
+      "delivery": "Perth stores",
+      "url": "https://officeworks.com.au",
+      "notes": "Price-beat potential from Amazon/HN"
+    },
+    {
+      "source": "Apple Refurbished",
+      "model": "MacBook Air M3",
+      "specs": "8GB/256GB",
+      "price": 1699,
+      "condition": "Grade A Refurbished",
+      "delivery": "2-3 days to Perth",
+      "url": "https://apple.com/au/shop/refurbished/mac",
+      "notes": "Full Apple warranty"
+    },
+    {
+      "source": "eBay",
+      "model": "MacBook Air M3",
+      "specs": "24GB/512GB",
+      "price": 1899,
+      "condition": "Excellent - Like New",
+      "delivery": "Free to Perth",
+      "url": "https://ebay.com.au"
+    },
+    {
+      "source": "eBay",
+      "model": "MacBook Air M1",
+      "specs": "8GB/256GB",
+      "price": 899,
+      "condition": "Very Good",
+      "delivery": "Free shipping",
+      "url": "https://ebay.com.au"
+    },
+    {
+      "source": "Facebook Marketplace",
+      "model": "MacBook Air M2",
+      "specs": "Various",
+      "price_range": "1100-1400",
+      "condition": "Variable",
+      "delivery": "Local pickup Perth",
+      "notes": "No warranty typical - verify seller"
+    }
+  ],
+  "second_hand_market": {
+    "m3": {
+      "min": 1899,
+      "max": 2450,
+      "avg": 2150,
+      "notes": "Newest models, premium pricing"
+    },
+    "m2": {
+      "min": 1299,
+      "max": 1899,
+      "avg": 1550,
+      "notes": "Best value - strong market"
+    },
+    "m1": {
+      "min": 899,
+      "max": 1399,
+      "avg": 1100,
+      "notes": "Budget option, declining value"
+    }
+  }
+}

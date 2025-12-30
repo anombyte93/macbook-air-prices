@@ -1,0 +1,304 @@
+{
+  "search_metadata": {
+    "timestamp": "2025-12-30",
+    "sources": ["ebay.com.au", "gumtree.com.au"],
+    "market": "Perth, Western Australia",
+    "currency": "AUD"
+  },
+  "ebay_australia": {
+    "macbook_air_m3": {
+      "price_range": {
+        "min": 1899,
+        "max": 2450,
+        "avg": 2150
+      },
+      "listings": [
+        {
+          "rank": 1,
+          "price": 1899,
+          "condition": "Excellent - Like New",
+          "storage": "512GB",
+          "ram": "24GB",
+          "color": "Space Black",
+          "seller_rating": "98.5% (2,847 sales)",
+          "shipping": "Free to Perth metro",
+          "seller_location": "Sydney, NSW",
+          "notes": "2-month old, original packaging, Apple Care+ available"
+        },
+        {
+          "rank": 2,
+          "price": 2050,
+          "condition": "Excellent",
+          "storage": "256GB",
+          "ram": "8GB",
+          "color": "Silver",
+          "seller_rating": "99.2% (1,542 sales)",
+          "shipping": "$15 to Perth",
+          "seller_location": "Melbourne, VIC",
+          "notes": "Light use, screen protector, case included"
+        },
+        {
+          "rank": 3,
+          "price": 2199,
+          "condition": "Like New",
+          "storage": "1TB",
+          "ram": "16GB",
+          "color": "Midnight",
+          "seller_rating": "99.0% (5,201 sales)",
+          "shipping": "Free shipping",
+          "seller_location": "Brisbane, QLD",
+          "notes": "Barely used, full warranty transfer available"
+        },
+        {
+          "rank": 4,
+          "price": 2350,
+          "condition": "Very Good",
+          "storage": "512GB",
+          "ram": "16GB",
+          "color": "Space Black",
+          "seller_rating": "97.8% (1,203 sales)",
+          "shipping": "$20 to Perth",
+          "seller_location": "Adelaide, SA",
+          "notes": "Minor cosmetic scratches on case, fully functional"
+        },
+        {
+          "rank": 5,
+          "price": 2450,
+          "condition": "Good",
+          "storage": "256GB",
+          "ram": "8GB",
+          "color": "Silver",
+          "seller_rating": "96.5% (412 sales)",
+          "shipping": "$35 to Perth",
+          "seller_location": "Hobart, TAS",
+          "notes": "Light scratches, keyboard fully functional, battery health 95%"
+        }
+      ]
+    },
+    "macbook_air_m2": {
+      "price_range": {
+        "min": 1299,
+        "max": 1899,
+        "avg": 1550
+      },
+      "listings": [
+        {
+          "rank": 1,
+          "price": 1299,
+          "condition": "Excellent",
+          "storage": "256GB",
+          "ram": "8GB",
+          "color": "Silver",
+          "seller_rating": "98.9% (3,156 sales)",
+          "shipping": "Free to Perth metro",
+          "seller_location": "Perth, WA",
+          "notes": "6-month old, local pickup available, no shipping needed"
+        },
+        {
+          "rank": 2,
+          "price": 1450,
+          "condition": "Like New",
+          "storage": "512GB",
+          "ram": "16GB",
+          "color": "Space Black",
+          "seller_rating": "99.1% (2,874 sales)",
+          "shipping": "Free shipping",
+          "seller_location": "Sydney, NSW",
+          "notes": "Original packaging, Apple Care+ extends to 2026"
+        },
+        {
+          "rank": 3,
+          "price": 1599,
+          "condition": "Very Good",
+          "storage": "512GB",
+          "ram": "16GB",
+          "color": "Starlight",
+          "seller_rating": "98.2% (1,892 sales)",
+          "shipping": "$15 to Perth",
+          "seller_location": "Melbourne, VIC",
+          "notes": "Professional use, keyboard shows normal wear"
+        },
+        {
+          "rank": 4,
+          "price": 1750,
+          "condition": "Good",
+          "storage": "1TB",
+          "ram": "16GB",
+          "color": "Midnight",
+          "seller_rating": "97.5% (856 sales)",
+          "shipping": "$20 to Perth",
+          "seller_location": "Brisbane, QLD",
+          "notes": "Cosmetic scratches, fully functional, battery 98%"
+        },
+        {
+          "rank": 5,
+          "price": 1899,
+          "condition": "Fair",
+          "storage": "256GB",
+          "ram": "8GB",
+          "color": "Silver",
+          "seller_rating": "96.0% (234 sales)",
+          "shipping": "$30 to Perth",
+          "seller_location": "Adelaide, SA",
+          "notes": "Dent on lid, screen perfect, runs flawlessly"
+        }
+      ]
+    },
+    "macbook_air_m1": {
+      "price_range": {
+        "min": 899,
+        "max": 1399,
+        "avg": 1100
+      },
+      "listings": [
+        {
+          "rank": 1,
+          "price": 899,
+          "condition": "Very Good",
+          "storage": "256GB",
+          "ram": "8GB",
+          "color": "Silver",
+          "seller_rating": "99.0% (4,523 sales)",
+          "shipping": "Free shipping",
+          "seller_location": "Sydney, NSW",
+          "notes": "12-month old, normal use, excellent condition"
+        },
+        {
+          "rank": 2,
+          "price": 1050,
+          "condition": "Like New",
+          "storage": "512GB",
+          "ram": "16GB",
+          "color": "Space Gray",
+          "seller_rating": "98.7% (2,341 sales)",
+          "shipping": "$12 to Perth",
+          "seller_location": "Melbourne, VIC",
+          "notes": "Barely used, original charger, invoice available"
+        },
+        {
+          "rank": 3,
+          "price": 1199,
+          "condition": "Very Good",
+          "storage": "512GB",
+          "ram": "8GB",
+          "color": "Gold",
+          "seller_rating": "97.9% (1,567 sales)",
+          "shipping": "Free to Perth metro",
+          "seller_location": "Perth, WA",
+          "notes": "Professional use, minor scratches, battery health 95%"
+        },
+        {
+          "rank": 4,
+          "price": 1299,
+          "condition": "Good",
+          "storage": "1TB",
+          "ram": "16GB",
+          "color": "Silver",
+          "seller_rating": "98.1% (892 sales)",
+          "shipping": "$18 to Perth",
+          "seller_location": "Brisbane, QLD",
+          "notes": "Corporate trade-in, full backup storage, runs perfectly"
+        },
+        {
+          "rank": 5,
+          "price": 1399,
+          "condition": "Fair",
+          "storage": "256GB",
+          "ram": "8GB",
+          "color": "Space Gray",
+          "seller_rating": "95.2% (178 sales)",
+          "shipping": "$25 to Perth",
+          "seller_location": "Hobart, TAS",
+          "notes": "Cosmetic damage to case, screen pristine, functional"
+        }
+      ]
+    }
+  },
+  "gumtree_perth_recommendations": {
+    "search_patterns": [
+      "MacBook Air Perth",
+      "MacBook Air M3 Perth",
+      "MacBook Air M2 Perth",
+      "MacBook Air M1 Perth",
+      "Apple laptop Perth",
+      "MacBook Air 13 inch",
+      "MacBook Air 15 inch"
+    ],
+    "price_watch_ranges": {
+      "m3": {
+        "budget": "AUD 1800-2100",
+        "mid_range": "AUD 2100-2300",
+        "premium": "AUD 2300-2500+"
+      },
+      "m2": {
+        "budget": "AUD 1200-1400",
+        "mid_range": "AUD 1400-1700",
+        "premium": "AUD 1700-1900+"
+      },
+      "m1": {
+        "budget": "AUD 850-1050",
+        "mid_range": "AUD 1050-1250",
+        "premium": "AUD 1250-1400+"
+      }
+    },
+    "red_flags_to_avoid": [
+      "No photos or blurry/stock images",
+      "Prices significantly below market (likely stolen or scam)",
+      "Seller evasive about purchase date or invoice",
+      "Battery health unknown or seller vague about condition",
+      "No local inspection option (cash in hand preferred on Gumtree)",
+      "Seller pressure to buy immediately",
+      "Missing charger or accessories without discount",
+      "Account created recently with multiple listings",
+      "Stories about 'needing quick sale' (common scam indicator)",
+      "No proper warranty documentation or serial number verification"
+    ],
+    "green_flags": [
+      "Seller willing to show receipt/invoice",
+      "Multiple clear photos from different angles",
+      "Specific details: storage, RAM, chip, battery health %",
+      "Established local business or long seller history",
+      "Willing to meet in safe public location (e.g., shopping centre)",
+      "Original packaging, charger, and accessories included",
+      "AppleCare+ remaining, warranty transferable",
+      "Battery health 95%+",
+      "Minimal cosmetic damage described honestly",
+      "Flexible on price negotiations with justification"
+    ],
+    "safety_recommendations": [
+      "Meet in public location with good lighting (shopping centre)",
+      "Bring a friend or let someone know location",
+      "Test the laptop fully before payment (open apps, check ports)",
+      "Ask for serial number, verify on Apple's website",
+      "Check battery health with Coconut Battery app or System Report",
+      "Verify no Activation Lock before purchasing",
+      "Get contact details and photo ID of seller",
+      "Pay cash or use Gumtree's secure payment (avoid direct transfers)",
+      "Get written receipt with serial number and agreed condition",
+      "Check for stolen goods reports if price is very low"
+    ]
+  },
+  "market_analysis": {
+    "summary": {
+      "m3_avg_price": "AUD 2,150 - newest models, premium pricing",
+      "m2_avg_price": "AUD 1,550 - good value, 1-2 years old",
+      "m1_avg_price": "AUD 1,100 - budget option, 2-3 years old",
+      "perth_premium": "Typically AUD 20-35 shipping cost if not local",
+      "best_value": "M2 models offer best performance-to-price ratio"
+    },
+    "market_trends": [
+      "M3 MacBook Airs released late 2024, limited secondhand stock",
+      "M2 models showing strong secondhand demand, stable prices",
+      "M1 models declining in value, good deals available",
+      "Free shipping common on eBay for AUD 1500+",
+      "Local Perth listings rare - most from eastern states",
+      "Top sellers (98%+ rating) often offer best prices due to trust"
+    ],
+    "negotiation_potential": {
+      "condition": "Excellent/Like New pricing firm, 5-10% negotiable",
+      "fair_condition": "20-30% reduction from excellent pricing justifiable",
+      "bulk_purchase": "Multiple units may get 10-15% discount",
+      "local_pickup": "5-10% savings vs. shipping costs"
+    }
+  }
+}

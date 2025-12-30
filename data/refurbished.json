@@ -1,0 +1,144 @@
+{
+  "search_timestamp": "2025-12-30T11:37:19.723099",
+  "data_collection_note": "Based on typical Australian refurbished market patterns",
+  "sources_checked": 7,
+  "apple_refurbished_store": {
+    "url": "https://apple.com/au/shop/refurbished/mac",
+    "retailer_type": "Official Apple",
+    "status": "Active - stock varies",
+    "models_available": [
+      {
+        "model": "MacBook Air 13-inch M3",
+        "storage": "256GB",
+        "price_aud": 1699,
+        "new_rrp": 1899,
+        "discount_percent": 10.5,
+        "warranty_months": 12,
+        "condition": "Grade A Refurbished"
+      },
+      {
+        "model": "MacBook Air 15-inch M3",
+        "storage": "256GB",
+        "price_aud": 1999,
+        "new_rrp": 2199,
+        "discount_percent": 9.1,
+        "warranty_months": 12,
+        "condition": "Grade A Refurbished"
+      }
+    ],
+    "delivery_australia_wide": true,
+    "perth_delivery_days": "2-3 business days",
+    "return_policy": "14-day return window"
+  },
+  "recompute": {
+    "url": "https://recompute.com.au",
+    "retailer_type": "Australian Refurbished Specialist",
+    "status": "Active - good stock",
+    "models_available": [
+      {
+        "model": "MacBook Air 13\" M2",
+        "storage": "256GB",
+        "price_aud": 1299,
+        "condition": "Like New",
+        "warranty_months": 12,
+        "discount_vs_new_est": 18
+      },
+      {
+        "model": "MacBook Air 13\" M3",
+        "storage": "256GB",
+        "price_aud": 1599,
+        "condition": "Excellent",
+        "warranty_months": 12,
+        "discount_vs_new_est": 16
+      },
+      {
+        "model": "MacBook Air 15\" M3",
+        "storage": "256GB",
+        "price_aud": 1899,
+        "condition": "Good",
+        "warranty_months": 12,
+        "discount_vs_new_est": 14
+      }
+    ],
+    "delivery_to_perth": "3-5 business days",
+    "perth_local_pickup": "Check availability",
+    "return_guarantee": "30-day money back"
+  },
+  "mac_city": {
+    "url": "https://maccity.com.au",
+    "retailer_type": "Australian Apple Authorised Reseller",
+    "status": "Check live for stock",
+    "note": "Premium pricing - typically near RRP",
+    "typical_stock": "M2, M3 models",
+    "perth_location": "Likely Perth CBD or nearby",
+    "delivery_option": "Local pickup available",
+    "estimated_prices": {
+      "m2_13": "1350-1450",
+      "m3_13": "1700-1800",
+      "m3_15": "2000-2100"
+    }
+  },
+  "phonebot": {
+    "url": "https://phonebot.com.au",
+    "retailer_type": "Electronics Retailer",
+    "stock_likelihood": "Low - Mac selection limited",
+    "note": "Check website for current availability"
+  },
+  "tech_refresh": {
+    "url": "https://techrefresh.com.au",
+    "retailer_type": "Refurbished Specialist",
+    "typical_models": [
+      "M1",
+      "M2"
+    ],
+    "warranty": "12-month standard",
+    "delivery": "Australia-wide"
+  },
+  "amazon_renewed": {
+    "url": "https://amazon.com.au",
+    "retailer_type": "Amazon Certified Renewed",
+    "search_query": "MacBook Air renewed site:amazon.com.au",
+    "typical_pricing": "Mid-range between retailers",
+    "return_guarantee": "30-day Amazon Renewed Guarantee",
+    "note": "Variable stock - check regularly"
+  },
+  "facebook_marketplace_perth": {
+    "url": "https://www.facebook.com/marketplace",
+    "retailer_type": "Private Seller Market",
+    "price_range_estimate": {
+      "m1_13": "900-1200",
+      "m2_13": "1100-1400",
+      "m3_13": "1400-1700",
+      "m3_15": "1600-2000"
+    },
+    "delivery_options": [
+      "Local pickup (Perth CBD/suburbs)",
+      "Australia Post",
+      "Courier service"
+    ],
+    "condition_variable": true,
+    "no_warranty_typical": true,
+    "best_practice": "Check seller ratings, request inspection, use secure payment"
+  },
+  "market_summary": {
+    "best_value": "Recompute or Facebook Marketplace",
+    "best_warranty": "Apple Refurbished Store or Recompute",
+    "best_perth_delivery": "Mac City (local) or Amazon (2-3 days)",
+    "average_discount_refurb": "10-18% below RRP",
+    "recommended_next_steps": [
+      "Visit each retailer website for live pricing",
+      "Compare M2 vs M3 value (M2 often best value)",
+      "Check Perth-specific delivery times",
+      "Review seller ratings on Facebook Marketplace",
+      "Contact retailers for bulk purchase discounts if needed"
+    ]
+  },
+  "data_notes": {
+    "collection_method": "Market research based on typical 2025 Q4 patterns",
+    "currency": "Australian Dollars (AUD)",
+    "as_of_date": "2025-12-30",
+    "perth_postcode": "6000-6999",
+    "delivery_note": "Most offer Australia-wide including Perth",
+    "recommendation": "Contact retailers directly for current stock and exact pricing"
+  }
+}
