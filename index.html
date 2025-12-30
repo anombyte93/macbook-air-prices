@@ -41,8 +41,8 @@
                         <span class="text-2xl">🏆</span>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Costco M2 16GB/256GB</h3>
-                    <p class="text-4xl font-bold text-green-400 mb-2">$999.98</p>
-                    <p class="text-gray-300 text-sm mb-4">Members only. Best budget option with 16GB RAM.</p>
+                    <p class="text-4xl font-bold text-green-400 mb-2">$1,379.99</p>
+                    <p class="text-gray-300 text-sm mb-4">Members only. Save $120 vs RRP. Verified Dec 30.</p>
                     <ul class="text-sm text-gray-400 space-y-1 mb-4">
                         <li><i class="fas fa-check text-green-400 mr-2"></i>Apple M2 Chip</li>
                         <li><i class="fas fa-check text-green-400 mr-2"></i>16GB RAM (future-proof)</li>
@@ -215,16 +215,15 @@
                     <div>
                         <label class="block text-sm font-medium mb-2">Apple RRP (New)</label>
                         <select id="rrpSelect" class="w-full bg-white/20 rounded-lg px-4 py-3 text-white">
-                            <option value="1549">M3 13" 256GB - $1,549</option>
-                            <option value="1899">M3 13" 512GB - $1,899</option>
-                            <option value="1999">M4 13" 256GB - $1,999</option>
-                            <option value="2199">M4 13" 512GB - $2,199</option>
-                            <option value="2499">M4 15" 256GB - $2,499</option>
+                            <option value="1699">M4 13" 256GB - $1,699 (Verified)</option>
+                            <option value="1999">M4 13" 512GB - $1,999 (Verified)</option>
+                            <option value="2299">M4 13" 512GB/24GB - $2,299 (Verified)</option>
+                            <option value="2099">M4 15" 256GB - $2,099 (Verified)</option>
                         </select>
                     </div>
                     <div>
                         <label class="block text-sm font-medium mb-2">Your Deal Price</label>
-                        <input type="number" id="dealPrice" placeholder="Enter price" class="w-full bg-white/20 rounded-lg px-4 py-3 text-white" value="999">
+                        <input type="number" id="dealPrice" placeholder="Enter price" class="w-full bg-white/20 rounded-lg px-4 py-3 text-white" value="1380">
                     </div>
                 </div>
                 <div class="mt-6 text-center">
@@ -347,19 +346,18 @@
             year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'
         });
 
-        // Price data
+        // Price data - VERIFIED Dec 30, 2025
         const priceData = [
-            { source: 'Costco', model: 'MacBook Air M2', specs: '16GB/256GB', price: 999.98, condition: 'New', delivery: 'Delivery available', url: 'https://costco.com.au', highlight: true },
-            { source: 'eBay (Perth)', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1299, condition: 'Excellent', delivery: 'Local pickup!', url: 'https://ebay.com.au', highlight: true },
-            { source: 'Recompute', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1299, condition: 'Like New', delivery: '3-5 days', url: 'https://recompute.com.au', highlight: false },
-            { source: 'Apple Store', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1199, condition: 'New', delivery: '2-3 days', url: 'https://apple.com/au', highlight: false },
-            { source: 'JB Hi-Fi', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1299, condition: 'New', delivery: 'Perth store', url: 'https://jbhifi.com.au', highlight: false },
-            { source: 'Apple Store', model: 'MacBook Air M3', specs: '8GB/256GB', price: 1549, condition: 'New', delivery: '2-3 days', url: 'https://apple.com/au', highlight: false },
-            { source: 'Recompute', model: 'MacBook Air M3', specs: '8GB/256GB', price: 1599, condition: 'Excellent', delivery: '3-5 days', url: 'https://recompute.com.au', highlight: false },
-            { source: 'JB Hi-Fi', model: 'MacBook Air M4', specs: '16GB/512GB', price: 1627, condition: 'New', delivery: 'Perth store', url: 'https://jbhifi.com.au', highlight: true },
-            { source: 'Apple Refurb', model: 'MacBook Air M3', specs: '8GB/256GB', price: 1699, condition: 'Refurbished', delivery: '2-3 days', url: 'https://apple.com/au/shop/refurbished', highlight: false },
-            { source: 'eBay', model: 'MacBook Air M3', specs: '24GB/512GB', price: 1899, condition: 'Excellent', delivery: 'Free shipping', url: 'https://ebay.com.au', highlight: false },
-            { source: 'eBay', model: 'MacBook Air M1', specs: '8GB/256GB', price: 899, condition: 'Very Good', delivery: 'Free shipping', url: 'https://ebay.com.au', highlight: false },
+            { source: 'eBay', model: 'MacBook Air M1', specs: '8GB/256GB', price: 899, condition: 'Very Good', delivery: 'Free shipping', url: 'https://ebay.com.au', highlight: false, verified: false },
+            { source: 'eBay (Perth)', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1299, condition: 'Excellent', delivery: 'Local pickup!', url: 'https://ebay.com.au', highlight: true, verified: false },
+            { source: 'Recompute', model: 'MacBook Air M2', specs: '8GB/256GB', price: 1299, condition: 'Like New', delivery: '3-5 days', url: 'https://recompute.com.au', highlight: false, verified: false },
+            { source: 'Costco', model: 'MacBook Air M2', specs: '16GB/256GB', price: 1379.99, condition: 'New', delivery: 'Delivery available', url: 'https://costco.com.au', highlight: true, verified: true },
+            { source: 'JB Hi-Fi (Promo)', model: 'MacBook Air M4', specs: '16GB/256GB', price: 1478, condition: 'New', delivery: 'Perth store', url: 'https://jbhifi.com.au', highlight: true, verified: true },
+            { source: 'JB Hi-Fi', model: 'MacBook Air M4', specs: '16GB/512GB', price: 1627, condition: 'New', delivery: 'Perth store', url: 'https://jbhifi.com.au', highlight: false, verified: true },
+            { source: 'Apple Store', model: 'MacBook Air M4', specs: '16GB/256GB', price: 1699, condition: 'New', delivery: '2-3 days', url: 'https://apple.com/au', highlight: false, verified: true },
+            { source: 'eBay', model: 'MacBook Air M3', specs: '24GB/512GB', price: 1899, condition: 'Excellent', delivery: 'Free shipping', url: 'https://ebay.com.au', highlight: false, verified: false },
+            { source: 'Apple Store', model: 'MacBook Air M4', specs: '16GB/512GB', price: 1999, condition: 'New', delivery: '2-3 days', url: 'https://apple.com/au', highlight: false, verified: true },
+            { source: 'Apple Store', model: 'MacBook Air 15" M4', specs: '16GB/256GB', price: 2099, condition: 'New', delivery: '2-3 days', url: 'https://apple.com/au', highlight: false, verified: true },
         ];
 
         // Populate table
@@ -384,20 +382,20 @@
         new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['M1 (Budget)', 'M2 (Value)', 'M3', 'M4 (Latest)'],
+                labels: ['M1 (Budget)', 'M2 (Costco)', 'M3 (eBay)', 'M4 (Latest)'],
                 datasets: [
                     {
-                        label: 'Cheapest New',
-                        data: [null, 1199, 1549, 1627],
+                        label: 'Cheapest New (Verified)',
+                        data: [null, 1380, null, 1478],
                         backgroundColor: 'rgba(59, 130, 246, 0.8)',
                     },
                     {
-                        label: 'Cheapest Refurbished',
-                        data: [null, 1299, 1599, null],
+                        label: 'Apple RRP',
+                        data: [null, null, null, 1699],
                         backgroundColor: 'rgba(168, 85, 247, 0.8)',
                     },
                     {
-                        label: 'Cheapest Second-Hand',
+                        label: 'Second-Hand (eBay)',
                         data: [899, 1299, 1899, null],
                         backgroundColor: 'rgba(16, 185, 129, 0.8)',
                     }
